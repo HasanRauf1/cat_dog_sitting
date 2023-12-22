@@ -17,11 +17,17 @@ This Rails application is designed to manage bookings for a cat and dog sitting 
 
 ### Installation
 1. Clone the repository:
-```git clone https://github.com/HasanRauf1/cat_dog_sitting.git```
+```
+git clone https://github.com/HasanRauf1/cat_dog_sitting.git
+```
 2. Navigate to the application directory:
-```cd CatDogSitting```
+```
+cd CatDogSitting
+```
 3. Install the required gems:
-```bundle install```
+```
+bundle install
+```
 4. Set up the database:
 ```
 rails db:create
@@ -30,12 +36,17 @@ rails db:migrate
 
 ### Running the Application
 To run the application on your local machine:
-```rails server```
+```
+rails server
+```
+
 Access the application through the browser at `http://localhost:3000`.
 
 ### Running the Tests
 To run the RSpec tests:
-```bundle exec rspec```
+```
+bundle exec rspec
+```
 
 ## Application Structure
 
