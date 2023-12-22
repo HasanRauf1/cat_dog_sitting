@@ -35,12 +35,11 @@ rails db:migrate
 ```
 
 ### Running the Application
-To run the application on your local machine:
+- To run the application on your local machine:
 ```
 rails server
 ```
-
-Access the application through the browser at `http://localhost:3000`.
+- Access the application through the browser at `http://localhost:3000`.
 
 ### Running the Tests
 To run the RSpec tests:
