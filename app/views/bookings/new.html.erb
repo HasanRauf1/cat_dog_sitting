@@ -2,34 +2,22 @@
   <div class="input-field">
     <%= form.label :first_name %>
     <%= form.text_field :first_name %>
-  </div>
-
-  <div class="input-field">
+ 
     <%= form.label :last_name %>
     <%= form.text_field :last_name %>
-  </div>
-
-  <div class="input-field">
+  
     <%= form.label :animal_name %>
     <%= form.text_field :animal_name %>
-  </div>
-
-  <div class="input-field">
+  
     <%= form.label :animal_type %>
     <%= form.select :animal_type, ['Dog', 'Cat'] %>
-  </div>
-
-  <div class="input-field">
+ 
     <%= form.label :hours_requested %>
     <%= form.number_field :hours_requested, in: 2..8 %>
-  </div>
 
-  <div class="input-field">
     <%= form.label :date_of_service %>
     <%= form.date_field :date_of_service %>
-  </div>
 
-  <div class="input-field">
     <%= form.submit 'Create Booking', class: 'submit-btn' %>
   </div>
 <% end %>
